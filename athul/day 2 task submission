@@ -1,0 +1,33 @@
+# Day 2 Task
+
+ React native day 2
+1)Javascript function is a block of code used to execute specific operation or task.it is defined by a keyword ‘function’ followed by the function name and paranthesis having the parameters of the function.it can be called from other parts of the code by writing function name followed by paranthesis having the arguments for the function.
+
+Main feature of function is code reusability
+2) function calculateSum(a,b)
+    {
+      let c=a+b;
+      return c;
+    }
+    let c=calculateSum(5,87);
+    console.log(c);
+3)Function parameters are the name of variables defined along with the function.this refers to the variables needed for the execution of the function.arguments during function call is changed to the parameters of function.
+4) 
+function greet(name)
+    {
+      let c="Hello, "+name+"!";
+      return c;
+    }
+   let result=greet("Alice");
+   console.log(result);
+5)
+function calculateAverage(a)
+    { 
+      let c=0;
+      for(let i=0;i<5;i++)
+        c=c+a[i];
+      return c/a.length;
+    }
+     let a=[6,8,5,7,3];
+     let result=calculateAverage(a);
+     console.log(result);
