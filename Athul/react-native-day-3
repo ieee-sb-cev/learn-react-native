@@ -1,0 +1,25 @@
+React-native Day 03
+1)	A Javascript array is a single variable holding a number of data whereas a Variable is a container of a single data. Array data has the same name and can be accessed using index address. Unlike other languages javascript array can store different datatypes in same name.
+2)	
+let fruits=["Apple","Banana","Grapes","Orange","Pineapple"];
+for(let i=0;i<5;i++)
+      console.log(fruits[i]);
+3)	let fruits=["Apple","Banana","Grapes","Orange","Pineapple"];
+console.log(fruits[2]);
+4)	Javascript objects are also variables that can store multiple data in a single name. But in objects unlike arrays, we can store named values as name:value pairs. It is declared as object name followed by curly braces and having name:value pairs inside them.
+5)	let person={name:"Athul",age:"20",city:"Areekode"};
+console.log("Person Details");
+console.log("Name : "+person.name);
+console.log("Age : "+person.age);
+console.log("City : "+person.city);
+6)	var numbers=[2,4,6,8,10];
+numbers.push(12);
+for(let i=0;i<6;i++)
+    console.log(numbers[i]);
+7)	Dot notation allows only static keys whereas Bracket notation allows dynamic keys. In Dot notation, we can access a value from the object by a dot operator between object name and the attribute name, this expression can only access the value. In Bracket notation, we can access a value from the object by the object name followed by a bracket with the attribute name inside it, here we can provide modification to the data also.
+
+let result = person.name;
+let key=”age”;
+person[key]=21;
+
+
